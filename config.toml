@@ -1,6 +1,6 @@
 baseurl = "https://www.willowbot.com/"
 languageCode = "en-us"
-title = "WillowBot Playground"
+title = "WillowBot Sandbox"
 theme = "blackburn"
 author = "WillowBot Team"
 copyright = "&copy; 2017. All rights reserved."
@@ -30,6 +30,12 @@ paginate = 10
     identifier = "home"
     url = "/"
   [[menu.main]]
+    name = "Projects"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "projects"
+    url = "/projects/"
+  [[menu.main]]
     name = "Posts"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 1
@@ -39,6 +45,7 @@ paginate = 10
     name = "Quotes"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 1
+    identifier = "quotes"
     url = "/quotes/"
   [[menu.main]]
     name = "About"
