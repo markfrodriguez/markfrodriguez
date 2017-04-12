@@ -31,19 +31,19 @@ paginate = 10
     url = "/"
   [[menu.main]]
     name = "Projects"
-    pre = "<i class='fa fa-list fa-fw'></i>"
+    pre = "<i class='fa fa-rocket fa-fw'></i>"
     weight = 1
     identifier = "projects"
     url = "/projects/"
   [[menu.main]]
     name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
+    pre = "<i class='fa fa-database fa-fw'></i>"
     weight = 1
     identifier = "post"
     url = "/post/"
   [[menu.main]]
     name = "Quotes"
-    pre = "<i class='fa fa-list fa-fw'></i>"
+    pre = "<i class='fa fa-quote-left fa-fw'></i>"
     weight = 1
     identifier = "quotes"
     url = "/quotes/"
