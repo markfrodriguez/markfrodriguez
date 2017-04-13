@@ -100,3 +100,6 @@ to [another post]({< relref "post/2017/0412-hello-world.md" >})
 
 Note, a set of {} missing from the above syntax. So internal link really has the format of {{link stuff}}.
 
+## Image
+
+![Image](/post/2017/0413-post-formatting/post-formatting.png)

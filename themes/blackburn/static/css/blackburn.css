@@ -76,6 +76,13 @@ i {
   color: #265778;
 }
 
+/*** Image scaling **/
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /*** Table related styles **/
 
 table {
