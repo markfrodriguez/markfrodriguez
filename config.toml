@@ -1,10 +1,10 @@
-baseurl = "https://www.willowbot.com/"
+baseurl = "http://www.willowbot.com/"
 languageCode = "en-us"
 title = "WillowBot Sandbox"
 theme = "blackburn"
 author = "WillowBot Team"
 copyright = "&copy; 2017. All rights reserved."
-canonifyurls = true
+canonifyurls = false
 paginate = 10
 
 [indexes]
