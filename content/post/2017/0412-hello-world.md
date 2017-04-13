@@ -2,6 +2,7 @@
 date = "2017-04-12T14:03:36-04:00"
 description = ""
 draft = false
+slug = "hello-world"
 tags = []
 title = "Hello World"
 topics = []
