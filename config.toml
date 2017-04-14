@@ -51,6 +51,12 @@ paginate = 10
     identifier = "quotes"
     url = "/quotes/"
   [[menu.main]]
+    name = "Search"
+    pre = "<i class='fa fa-search fa-fw'></i>"
+    weight = 1
+    identifier = "search"
+    url = "/search/"
+  [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 2
