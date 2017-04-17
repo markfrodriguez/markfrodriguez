@@ -9,7 +9,7 @@ description = "Search WillowBot"
 <div class="yui3-cssreset">
 <script>
   (function() {
-    var cx = '000122706642720349252:jgazysfc2zc';
+    var cx = '000122706642720349252:t4vmdal2fyq';
     var gcse = document.createElement('script');
     gcse.type = 'text/javascript';
     gcse.async = true;
