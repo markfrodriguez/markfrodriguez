@@ -164,7 +164,7 @@ Write up the article using [markdown](https://en.support.wordpress.com/markdown-
 
 ## Checking Content
 
-Execute, the line below to start a local server that serves up the site.
+Execute, the line below to start a local server that serves up the site. Note, the command must be executed from the directory where the root of the site exists.
 
 ```
 hugo server --theme=blackburn --buildDrafts
