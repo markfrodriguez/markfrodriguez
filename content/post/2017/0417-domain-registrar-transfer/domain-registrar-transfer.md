@@ -9,8 +9,6 @@ topics = []
 
 +++
 
-# DomainTransfers
-
 Currently all registered domain names are with [Network Solutions](http://www.netsol.com/). In an effort to consolidate to Google Cloud, these are the steps to transfer out the domains into Google.
 
 

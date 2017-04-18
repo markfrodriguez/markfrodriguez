@@ -9,8 +9,6 @@ topics = []
 
 +++
 
-# PostFormatting
-
 Let's try a few different formatting options to see how it carries over to [WillowBot](http://www.willowbot.com/).
 
 ## List
