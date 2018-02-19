@@ -1,8 +1,7 @@
 +++
-title = "Search"
+title = "Search Mark F Rodriguez"
 date = "2014-04-09"
 sidemenu = "true"
-description = "Search WillowBot"
 +++
 
 <div>

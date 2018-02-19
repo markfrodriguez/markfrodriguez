@@ -90,10 +90,10 @@ Much better now with CSS for formatting.
 
 External link to [Google](http://www.google.com/).
 
-Internal link to [another post]({{< relref "post/2017/0412-hello-world/hello-world.md" >}}) on [WillowBot](http://www.willowbot.com/) is handled via special `relref` tag.
+Internal link to [another post]({{< relref "post/2017/0413-hugo-setup/hugo-setup.md" >}}) on [WillowBot](http://www.willowbot.com/) is handled via special `relref` tag.
 
 ```
-to [another post]({< relref "post/2017/0412-hello-world/hello-world.md" >})
+to [another post]({< relref "post/2017/0413-hugo-setup/hugo-setup.md" >})
 ```
 
 Note, a set of {} missing from the above syntax. So internal link really has the format of {{link stuff}}.

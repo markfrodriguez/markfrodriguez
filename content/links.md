@@ -1,150 +1,20 @@
 +++
-title = "Quotes"
+title = "Links"
 date = "2014-04-09"
 sidemenu = "true"
-description = "Favorite Quotes"
+description = "Interesting Links, Articles, & News"
 +++
 
-"Excuse: skin of reason stuffed with a lie."
+## [Writing an Ada programmer's guide with Dynamo, Pandoc and Read the Docs](https://blog.vacs.fr/vacs/blogs/post.html?post=2018/02/18/Writing-an-Ada-programmer-s-guide-with-Dynamo-Pandoc-and-Read-the-Docs)
 
----
+ <i class='fa fa-calendar fa-fw'></i>*February 18, 2018 at 10:02AM*
 
-"The only way to create value for yourself is to create value for others."
+ Writing and maintaining documentation is always a pain for a developer. Most of the time, the documentation is not updated after some changes are made in the code and the documentation becomes out of date.
+***
 
----
+## [Code your own blockchain in less than 200 lines of Go!](https://medium.com/@mycoralhealth/code-your-own-blockchain-in-less-than-200-lines-of-go-e296282bcffc)
 
-“If you do not have goals for yourself, you’re doomed forever to work to achieve the goals of someone else.” — Brian Tracy
+ <i class='fa fa-calendar fa-fw'></i>*February 17, 2018 at 02:39PM*
 
----
-
-“The word LISTEN has the same letters as the word SILENT” - Alfred Brendel
-
----
-
-"Want to get a Christian angry? Get them around people who sin differently than they do" ~ Philip Yancey
-
----
-
-"Don't judge a man by where he is, because you don't know how far he has come." ~ C.S. Lewis
-
----
-
-"Humility is a synonym for honesty." ~ Jerry Root
-
----
-
-"Men became scientific because they expected law in nature, and they expected law in nature because they believed in a Lawgiver." ~ CS. Lewis
-
----
-
-"I never see why we should do anything unless it is either a duty or a pleasure! Life's short enough without filling up hours unnecessarily” ~ CS. Lewis
-
----
-
-"Surely what a man does when he is caught off guard is the best evidence for what sort of man he is?" ~ C.S. Lewis
-
----
-
-"The sole true end of education is this: to teach men how to learn for themselves.” ~ Dorothy Sayers
-
----
-
-"Pride gets no pleasure out of having something, only out of having more of it than the next person." ~ C.S. Lewis
-
----
-
-"Isn't it funny how day by day nothing changes, but when you look back, everything is different.” ~ C.S. Lewis
-
----
-
-"Humor can get in under the door while seriousness is still fumbling at the handle." ~ G.K. Chesterton
-
----
-
-"Science must not impose any philosophy, any more than the telephone must tell us what to say." ~ G.K. Chesterton
-
----
-
-"If I take care of character, my reputation will take of itself.” ~ D.L. Moody
-
----
-
-"Faith is the art of holding on to things your reason has once accepted in spite of your changing moods.” ~ CS. Lewis
-
----
-
-"Humility is not thinking less of yourself; it is thinking of yourself less.” ~ C.S. Lewis
-
----
-
-"Men do not differ much about what things they will call evils; they differ enormously about what evils they will call excusable” ~ Chesterton
-
----
-
-"Life can only be understood backwards; but it must be lived forwards." ~ Kierkegaard
-
----
-"Life is always complicated for someone without principles.” ~ G.K. Chesterton
-
----
-“Deeds will not be less valiant because they are unpraised.” ~ Aragorn, Lord of the Rings
-
----
-
-"To have a right to do a thing is not at all the same as to be right in doing it." ~ G. K. Chesterton
-
----
-
-“Nothing you have not given away will ever really be yours.” ~ CS. Lewis
-
----
-
-"Criticism without alternative is empty" ~ Unknown
-
----
-
-"A lot of people think they are thinking when, in fact, all they are doing is rearranging their prejudices." ~ William James
-
----
-
-"We have a right to believe whatever we want, but not everything we believe is right." ~ Ravi Zacharias
-
----
-
-“It is the mark of an educated mind to be able to entertain a thought without accepting it.” ~ Aristotle
-
----
-
-"There are a dozen views about everything until you know the answer. Then there is never more than one." ~ C.S. Lewis
-
----
-
-"What does not satisfy when we find it, was not the thing we were desiring.” ~ C.S. Lewis
-
----
-
-"When the velocity of progress increases beyond a certain point, it becomes indistinguishable from crisis." ~ Owen Barfield
-
----
-
-"When your visibility exceeds your ability, it destroys your credibility." ~ Unknown
-
----
-
-"There are two great days in a person's life — the day we are born and the day we discover why." ~ William Barclay
-
----
-
-"The obvious is the hardest thing of all to point out to anyone who has genuinely lost sight of it." ~ Owen Barfield
-
----
-
-"Facts do not cease to exist because they are ignored." ~ Aldous Huxley
-
----
-
-"The consistent skeptic is skeptical of everything, including his own skepticism." ~ Peter Kreeft
-
----
-
-"We make our decisions, and then our decisions turn around and make us." ~ F.W. Boreham
+ If this isn’t your first time reading this post, check out Part 2: Networking here! This tutorial is adapted from this excellent post about writing a basic blockchain using Javascript. We’ve ported it over to Go and added some extra goodies like viewing your blockchain in a web browser.
+***

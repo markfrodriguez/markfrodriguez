@@ -1,9 +1,9 @@
 baseurl = "http://www.willowbot.com/"
 languageCode = "en-us"
-title = "WillowBot Sandbox"
+title = "Mark F Rodriguez"
 theme = "blackburn"
-author = "WillowBot Team"
-copyright = "&copy; 2017. All rights reserved."
+author = "Mark F Rodriguez"
+copyright = "&copy; 2018. All rights reserved."
 canonifyurls = false
 paginate = 10
 
@@ -14,7 +14,7 @@ paginate = 10
 [params]
   # Shown in the home page
   subtitle = "a more formal napkin"
-  brand = "WillowBot"
+  brand = "Macrod"
   googleAnalytics = "UA-54657218-1"
   disqus = ""
   # CSS name for highlight.js
@@ -29,15 +29,9 @@ paginate = 10
   [[menu.main]]
     name = "Home"
     pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 0
+    weight = 1
     identifier = "home"
     url = "/"
-  [[menu.main]]
-    name = "Projects"
-    pre = "<i class='fa fa-rocket fa-fw'></i>"
-    weight = 1
-    identifier = "projects"
-    url = "/projects/"
   [[menu.main]]
     name = "Posts"
     pre = "<i class='fa fa-database fa-fw'></i>"
@@ -45,11 +39,11 @@ paginate = 10
     identifier = "post"
     url = "/post/"
   [[menu.main]]
-    name = "Quotes"
-    pre = "<i class='fa fa-quote-left fa-fw'></i>"
+    name = "Links"
+    pre = "<i class='fa fa-link fa-fw'></i>"
     weight = 1
-    identifier = "quotes"
-    url = "/quotes/"
+    identifier = "links"
+    url = "/links/"
   [[menu.main]]
     name = "Search"
     pre = "<i class='fa fa-search fa-fw'></i>"
@@ -63,12 +57,16 @@ paginate = 10
     identifier = "about"
     url = "/about/"
 
-# [social]
+[social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
-  # twitter = "*"
+  twitter = "@macrod"
   # facebook = "*"
   # instagram = "*"
-  # github = "yoshiharuyamashita"
+  github = "markfrodriguez"
   # stackoverflow = "*"
   # linkedin = "*"
+# https://gohugo.io/getting-started/configuration/#configure-blackfriday
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
