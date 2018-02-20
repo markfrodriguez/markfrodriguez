@@ -66,6 +66,7 @@ paginate = 10
   github = "markfrodriguez"
   # stackoverflow = "*"
   # linkedin = "*"
+
 # https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
   plainIDAnchors = true

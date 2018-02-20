@@ -57,11 +57,11 @@ git clone https://github.com/yoshiharuyamashita/blackburn.git
 Copy config.toml file from Blackburn template exampleSite to root of Hugo site.
 
 ```
-baseurl = "http://www.willowbot.com/"
+baseurl = "http://www.markfrodriguez.com/"
 languageCode = "en-us"
-title = "WillowBot Sandbox"
+title = "Mark F Rodriguez"
 theme = "blackburn"
-author = "WillowBot Team"
+author = "Mark F Rodriguez"
 copyright = "&copy; 2017. All rights reserved."
 canonifyurls = false
 paginate = 10
@@ -73,7 +73,7 @@ paginate = 10
 [params]
   # Shown in the home page
   subtitle = "a more formal napkin"
-  brand = "WillowBot"
+  brand = "Macrod"
   googleAnalytics = "UA-11111111-1"
   disqus = ""
   # CSS name for highlight.js
@@ -83,20 +83,14 @@ paginate = 10
 [permalinks]
   post = "/:slug/"
 
-[menu]
+[[menu]
   # Shown in the side menu.
   [[menu.main]]
     name = "Home"
     pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 0
+    weight = 1
     identifier = "home"
     url = "/"
-  [[menu.main]]
-    name = "Projects"
-    pre = "<i class='fa fa-rocket fa-fw'></i>"
-    weight = 1
-    identifier = "projects"
-    url = "/projects/"
   [[menu.main]]
     name = "Posts"
     pre = "<i class='fa fa-database fa-fw'></i>"
@@ -104,17 +98,38 @@ paginate = 10
     identifier = "post"
     url = "/post/"
   [[menu.main]]
-    name = "Quotes"
-    pre = "<i class='fa fa-quote-left fa-fw'></i>"
+    name = "Links"
+    pre = "<i class='fa fa-link fa-fw'></i>"
     weight = 1
-    identifier = "quotes"
-    url = "/quotes/"
+    identifier = "links"
+    url = "/links/"
+  [[menu.main]]
+    name = "Search"
+    pre = "<i class='fa fa-search fa-fw'></i>"
+    weight = 1
+    identifier = "search"
+    url = "/search/"
   [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 2
     identifier = "about"
     url = "/about/"
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  twitter = "@macrod"
+  # facebook = "*"
+  # instagram = "*"
+  github = "markfrodriguez"
+  # stackoverflow = "*"
+  # linkedin = "*"
+
+# https://gohugo.io/getting-started/configuration/#configure-blackfriday
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
 ```
 
 Copy default.md file from blackburn/archetypes to archetypes directory in hugo root.
