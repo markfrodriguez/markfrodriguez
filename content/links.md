@@ -5,6 +5,27 @@ sidemenu = "true"
 description = "Interesting Links, Articles, & News"
 +++
 
+## [The Secret to a High Tech Concierge Medical Office? Data](https://www.wired.com/story/the-secret-to-a-high-tech-concierge-medical-office-data/)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 02, 2018 at 10:25PM*
+
+ By design, the downtown San Francisco storefront offices of Forward feel more like a spa or a ritzy skin care boutique than a doctors’ office. But the latter thing is true.
+ ***
+
+## [Flutter: How I built a simple app in under an hour from scratch. And how you can do it too.](https://proandroiddev.com/flutter-how-i-built-a-simple-app-in-under-an-hour-from-scratch-and-how-you-can-do-it-too-6d8e7fe6c91b)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 02, 2018 at 09:45PM*
+
+ My preferred learning strategy is learning by doing. After reading through a few pages of documentation and investigating the app which is generated when you create a new project, I felt confident in trying something on my own.
+ ***
+
+## [Web Scraping with the Wolfram Language, Part 1: Importing and Interpreting](http://blog.wolfram.com/2018/03/02/web-scraping-with-the-wolfram-language-part-1-importing-and-interpreting/)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 02, 2018 at 01:32PM*
+
+ Do you want to do more with data available on the web? Meaningful data exploration requires computation—and the Wolfram Language is well suited to the tasks of acquiring and organizing data.
+ ***
+
 ## [Deep Learning from first principles in Python, R and Octave – Part 4](https://gigadom.wordpress.com/2018/02/26/deep-learning-from-first-principles-in-python-r-and-octave-part-4/)
 
  <i class='fa fa-calendar fa-fw'></i>*February 28, 2018 at 11:59AM*
