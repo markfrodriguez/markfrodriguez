@@ -101,7 +101,7 @@ To verify that all is well, start a new terminal session and execute
 gnatprove --version
 ```
 
-### Installing GtkAda
+## Installing GtkAda
 
 ```
 cd ~/Downloads/gtkada-gpl-2017-x86_64-linux-bin
@@ -152,9 +152,12 @@ export PATH
 As a sanity check that the GNAT ARM cross compiler is working, let’s build the sample led_flasher project included with the install. Before this can be done however, we first need to resolve the issue that the GNAT ARM tools are built for 32-bit Linux and our Ubuntu setup is 64-bit. When trying to run any of the binaries in `/opt/adacore/gnat-arm/bin`, the misleading message “No such file or directory” is given. Ubuntu introduced [MultiArch](https://help.ubuntu.com/community/MultiArch) support so the fix is to execute the commands below.
 
 ```
-dpkg --add-architecture i386
-apt-get update
-apt-get install libc6:i386 libstdc++6:i386
+sudo dpkg --add-architecture i386
+sudo apt-get update
+# For CLI binaries
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
+# For GPS included with GNAT ARM package
+sudo apt-get install libbz2-1.0:i386 libsm6:i386
 ```
 
 Now let’s get back to verifying the GNAT ARM tools. Start out by copying an example project to some directory within your home folder.
