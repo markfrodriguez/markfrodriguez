@@ -1,6 +1,7 @@
 <header>
   <nav>
-    <h1><a href="/">@{{ .Site.Author.handle }}</a>’s {{ .Site.Title }}.</h1>
+    <h1><a href="/">{{ .Site.Author.handle }}</a></h1>
+    <h2>{{ .Site.Title }}</h2>
     <div class="menu">
       {{ $.Scratch.Add "sections" .Site.Params.rsssections }}
       <ul>

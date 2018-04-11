@@ -17,8 +17,8 @@
 
   {{ if .Site.Params.showcopyright }}
     <div class="footer_copyright">
-      &copy; {{ now.Format "2006" }} <a href="{{ .Site.Author.aboutpage }}">{{ .Site.Author.firstname }} {{ .Site.Author.lastname }}</a>
-      {{ with .Site.Author.location }} - Made in {{ . }}{{ end }}
+      &copy; {{ now.Format "2006" }} <a href="{{ .Site.Author.aboutpage }}">{{ .Site.Author.firstname }} {{ .Site.Author.lastname }}</a>. All Rights Reserved.
+      {{ with .Site.Author.location }} Made in {{ . }}{{ end }}
     </div>
   {{ end }}
 </footer>

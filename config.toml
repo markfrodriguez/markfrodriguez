@@ -2,14 +2,13 @@ baseurl = "http://www.markfrodriguez.com/"
 languageCode = "en-us"
 title = "a more formal napkin"
 theme = "internet-weblog"
-pygmentsstyle = "emacs"
 paginate = 10
 SectionPagesMenu = "main"
 canonifyurls = false
 # copyright = "&copy; 2018. All rights reserved."
 
 [author]
-  Handle = "macrod"
+  Handle = "Mark F Rodriguez"
   FirstName = "Mark"
   LastName = "Rodriguez"
   AboutPage = "/about"
@@ -19,8 +18,8 @@ canonifyurls = false
 [params]
   Description = "Internet weblog of Mark F Rodriguez."
   ShowCopyright = true
-  RSSEnabled = true
-  RSSSections = [ "Posts", "Microposts" ]
+  # RSSEnabled = true
+  # RSSSections = [ "Posts", "Microposts" ]
   RSSMicropostTitles = false
 
   # googleAnalytics = "UA-54657218-1"
