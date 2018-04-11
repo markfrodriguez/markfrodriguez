@@ -43,7 +43,7 @@ There are multiple options when picking a base path for the GNAT tools. The typi
 /home/<your user name>/gnat
 ```
 
-Because we're installing the full GNAT Ada development tools distributed by [AdaCore](https://www.adacore.com/, we’ll use `/opt/adacore` as the root path for all our installations.
+Because we're installing the full GNAT Ada development tools distributed by [AdaCore](https://www.adacore.com/), we’ll use `/opt/adacore` as the root path for all our installations.
 
 ## Installing Main GNAT Tools
 

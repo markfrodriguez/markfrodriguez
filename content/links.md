@@ -5,6 +5,132 @@ sidemenu = "true"
 description = "Interesting Links, Articles, & News"
 +++
 
+## [Artificial heart running on embedded software controls blood pressure](https://www.electronicproducts.com/Biotech/Research/Artificial_heart_running_on_embedded_software_controls_blood_pressure.aspx)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 23, 2018 at 07:53AM*
+
+ The new heart features a complicated motor control system whose software will allow the heart to control blood pressure, which is a huge leap from conventional artificial hearts By Jean-Jacques DeLisle, contributing writer Scandinavian Real Heart is in the final developmental stages of its revolut
+ ***
+
+## [The 5 Deep Learning Frameworks Every Serious Machine Learner Should Be Familiar With](https://heartbeat.fritz.ai/the-5-deep-learning-frameworks-every-serious-machine-learner-should-be-familiar-with-93f4d469d24c)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 22, 2018 at 10:06PM*
+
+ Deep Learning requires a lot of computations. It typically involves neural network(s) with many nodes, and every node has many connections — which must be updated constantly during the learning.
+ ***
+
+## [The Yelping of The American Doctor](https://www.wired.com/story/the-yelping-of-the-american-doctor/)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 22, 2018 at 10:10AM*
+
+ Each year, antibiotic resistance sends more than 2 million Americans to the doctor.
+ ***
+
+## [What does the future of mobile tech use in hospitals look like?](https://medcitynews.com/2018/02/future-of-mobile-tech/)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 21, 2018 at 01:47PM*
+
+ A new survey out of Zebra Technologies found that an expected 97 percent of bedside nurses and 98 percent of physicians will use mobile devices in the hospital setting by 2022.
+ ***
+
+## [MIT 6.S094:Deep Learning for Self-Driving Cars 2018 Lecture 1 Notes](https://hackernoon.com/mit-6-s094-deep-learning-for-self-driving-cars-2018-lecture-1-notes-807be1a50893)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 21, 2018 at 01:23PM*
+
+ All images are from the Lecture slides. Deep learning: Set of techniques that have worked well for AI techniques in recent years due to advancement in research and GPU capabilities. SDC are Systems that can utilize these.
+ ***
+
+## [Medical device startups: Here’s how you handle regulatory and reimbursement](https://www.medicaldesignandoutsourcing.com/medical-device-startups-heres-how-you-handle-regulatory-and-reimbursement/)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 19, 2018 at 11:11PM*
+
+ The two “Rs” — regulatory and reimbursement — are critical elements of the environment in which a medical device product is developed.
+ ***
+
+## [Not Everyone Is Interested In Tracking Their Health](https://www.mdtmag.com/article/2018/03/not-everyone-interested-tracking-their-health)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 13, 2018 at 11:24AM*
+
+ Thirty-two percent of the participants use a health tracker and/or wearable. But what kind of people are they? Are they all superathletes? Through a cluster analysis, the researchers were able to define three different user profiles. The first group is ‘the casual curious tracker’.
+ ***
+
+## [Semantic Image Segmentation with DeepLab in Tensorflow](https://research.googleblog.com/2018/03/semantic-image-segmentation-with.html)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 12, 2018 at 03:42PM*
+
+ Today, we are excited to announce the open source release of our latest and best performing semantic image segmentation model, DeepLab-v3+ [1], implemented in Tensorflow.
+ ***
+
+## [New Blood Pressure App and Hardware Rivals Arm Cuff Accuracy](https://www.mdtmag.com/news/2018/03/new-blood-pressure-app-and-hardware-rivals-arm-cuff-accuracy-1)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 12, 2018 at 11:13AM*
+
+ Cuff devices for blood pressure measurement are inconvenient, and mobile device apps for blood pressure measurement that are now being introduced may lack accuracy.
+ ***
+
+## [Ada Based IoT Framework](https://www.makewithada.org/entry/ada-iot-stack)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 11, 2018 at 10:32PM*
+
+ Ada Based IoT Framework Last updated on Sep 18, 2017 SUMMARY The project integrates several new features to the AdaCore Drivers library to provide an IoT Framework based on existing LwIp implementation ported for the embedded STM32 Ethernet family of devices, by means of adapting and integrating
+ ***
+
+## [How to add a GUI to your Golang app in 5 easy steps (powered by Electron)](https://hackernoon.com/how-to-add-a-gui-to-your-golang-app-in-5-easy-steps-c25c99d4d8e0)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 11, 2018 at 09:41PM*
+
+ Building a Golang app is simple and fun. But sometimes you want to add the icing on the cake: a GUI! Our Golang GUI app will explore a folder and display valuable information about its content.
+ ***
+
+## [How to create an application on blockchain using Hyperledger](https://medium.freecodecamp.org/ultimate-end-to-end-tutorial-to-create-an-application-on-blockchain-using-hyperledger-3a83a80cbc71)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 07, 2018 at 10:58AM*
+
+ We are going to build a digital bank using Hyperledger Composer. It will have customers and accounts. At the end of it, you’ll be able to transfer funds and record all transactions on blockchain.
+ ***
+
+## [Fall Detection Devices For Seniors Are Falling Short](https://www.wirelessdesignmag.com/news/2018/03/fall-detection-devices-seniors-are-falling-short)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 07, 2018 at 10:13AM*
+
+ The high-tech aids seniors rely on to summon help if they fall might not be as effective as they'd like to believe. Even though the market is already filled with such products, their readiness for use by the general public is questionable, she added.
+***
+
+## [Google looks to take healthcare into the Cloud](https://www.massdevice.com/google-looks-to-take-healthcare-into-the-cloud/)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 06, 2018 at 10:28PM*
+
+ Google (NSDQ:GOOG) is taking its Cloud services into the field of healthcare as it aims to enable data sharing and collaboration between providers and patients, according to a recent blog post from the tech giant.
+ ***
+
+## [Part 2: Networking — Code your own blockchain in less than 200 lines of Go!](https://medium.com/@mycoralhealth/part-2-networking-code-your-own-blockchain-in-less-than-200-lines-of-go-17fe1dad46e1)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 06, 2018 at 10:43AM*
+
+ Have you checked out Part 1 of this series yet? If not, go take a look. Don’t worry, we’ll wait. Welcome back!
+ ***
+
+## [Johns Hopkins researchers use big data analytics to target diagnostic errors, improve quality](https://www.fiercehealthcare.com/healthcare/johns-hopkins-armstrong-institute-diagnostic-errors-spade-big-data)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 06, 2018 at 08:41AM*
+
+ Reducing diagnostic errors is a crucial component of improving care quality, but current methods of monitoring such mistakes may be time consuming. Now, researchers at Johns Hopkins have developed a strategy that uses big data to speed up the process.
+ ***
+
+## [The 7 best deep learning books you should be reading right now](https://www.pyimagesearch.com/2018/03/05/7-best-deep-learning-books-reading-right-now/)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 05, 2018 at 07:02PM*
+
+ In today’s post I’m going to share with you the 7 best deep learning books (in no particular order) I have come across and would personally recommend you read.
+ ***
+
+## [How to make great wireframes in Sketch](https://medium.com/sketch-app-sources/how-to-make-great-wireframes-in-sketch-8624a341fd73)
+
+ <i class='fa fa-calendar fa-fw'></i>*March 03, 2018 at 11:19AM*
+
+ In recent years, Sketch has risen to one of the top vector graphics editors among designers. I use it several times a week at work and I love it! Here are my tips for making great wireframes in Sketch.
+ ***
+
 ## [The Secret to a High Tech Concierge Medical Office? Data](https://www.wired.com/story/the-secret-to-a-high-tech-concierge-medical-office-data/)
 
  <i class='fa fa-calendar fa-fw'></i>*March 02, 2018 at 10:25PM*
