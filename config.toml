@@ -18,8 +18,8 @@ canonifyurls = false
 [params]
   Description = "Internet weblog of Mark F Rodriguez."
   ShowCopyright = true
-  # RSSEnabled = true
-  # RSSSections = [ "Posts", "Microposts" ]
+  RSSEnabled = true
+  RSSSections = []
   RSSMicropostTitles = false
 
   # googleAnalytics = "UA-54657218-1"
