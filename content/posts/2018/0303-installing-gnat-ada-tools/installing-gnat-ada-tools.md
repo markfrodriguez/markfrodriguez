@@ -54,7 +54,7 @@ sudo ./doinstall
 
 When prompted to select a directory to install, change the presented default of `/usr/gnat` to `/opt/adacore/gnat`.
 
-![GNAT Install Location](/post/2018/0303-installing-gnat-ada-tools/gnat_install_location.png)
+![GNAT Install Location](/posts/2018/0303-installing-gnat-ada-tools/gnat_install_location.png)
 
 After the install script completes, update your PATH environment variable in `~/.bashrc` so the new GNAT tools are available.
 
@@ -67,7 +67,7 @@ export PATH
 
 The main GNAT IDE is called GNAT Programming Studio or GPS. The first time I attempted to launch via terminal by simply executing gps, I got a few error messages related to the canberra-gtk-module and the initial GPS splash screen presented itself blank and unresponsive.
 
-![GPS Launch Failure](/post/2018/0303-installing-gnat-ada-tools/gps_launch_failure.png)
+![GPS Launch Failure](/posts/2018/0303-installing-gnat-ada-tools/gps_launch_failure.png)
 
 The error message on the console is:
 
@@ -77,7 +77,7 @@ Gtk-Message: Failed to load module "canberra-gtk-module”
 
 After exiting the terminal session, the second launch still complained about the canberra module failing to load, but GPS launch as expected.
 
-![GNAT GPS Environment](/post/2018/0303-installing-gnat-ada-tools/gnat_gps.png)
+![GNAT GPS Environment](/posts/2018/0303-installing-gnat-ada-tools/gnat_gps.png)
 
 ## Installing Spark 2014
 
@@ -112,7 +112,7 @@ The doinstall script will automatically locate the gnat installation and ask if 
 
 This steps takes a few minutes as all the sources are built. If everything goes well, a success message from the GtkAda package is presented.
 
-![GtkAda Success](/post/2018/0303-installing-gnat-ada-tools/gtkada_success.png)
+![GtkAda Success](/posts/2018/0303-installing-gnat-ada-tools/gtkada_success.png)
 
 For actual GtkAda development, several environment variables such as LD_LIBRARY_PATH, PKG_CONFIG_PATH, etc. need to be set. For now, the easiest way to handle this is to run the `/opt/adacore/gtkada/bin/gtkada-env.sh` script. In a future post, I’ll get more into actual GtkAda development.
 
@@ -129,7 +129,7 @@ To verify that everything installed as expected, run the following testgtk execu
 /opt/adacore/gtkada/share/examples/gtkada/testgtk/testgtk
 ```
 
-![GtkAda Test App](/post/2018/0303-installing-gnat-ada-tools/testgtkada.png)
+![GtkAda Test App](/posts/2018/0303-installing-gnat-ada-tools/testgtkada.png)
 
 ## Installing GNAT for ARM
 
@@ -147,7 +147,7 @@ PATH=“/opt/adacore/gnat/bin:/opt/adacore/spark2014/bin:/opt/adacore/gtkada/bin
 export PATH
 ```
 
-![GNAT ARM Install](/post/2018/0303-installing-gnat-ada-tools/gnat-arm-install.png)
+![GNAT ARM Install](/posts/2018/0303-installing-gnat-ada-tools/gnat-arm-install.png)
 
 As a sanity check that the GNAT ARM cross compiler is working, let’s build the sample led_flasher project included with the install. Before this can be done however, we first need to resolve the issue that the GNAT ARM tools are built for 32-bit Linux and our Ubuntu setup is 64-bit. When trying to run any of the binaries in `/opt/adacore/gnat-arm/bin`, the misleading message “No such file or directory” is given. Ubuntu introduced [MultiArch](https://help.ubuntu.com/community/MultiArch) support so the fix is to execute the commands below.
 
@@ -168,7 +168,7 @@ cp -R /opt/adacore/gnat-arm/share/examples/gnat-cross/led_flasher-stm32f4 ~/Desk
 
 Open the project in GPS by launching gps and selecting the option to “Open project”. When the file browser is presented, navigate to the led_flasher-stm32f4 folder on the Desktop and open flasher.gpr. After the project loads within GPS, select Build—>Project—>Build All and then click the “Execute” button on the dialog. The results should be similar to the screenshot below.
 
-![GNAT ARM Install](/post/2018/0303-installing-gnat-ada-tools/gps_arm_build.png)
+![GNAT ARM Install](/posts/2018/0303-installing-gnat-ada-tools/gps_arm_build.png)
 
 **Congratulations!** We are now ready to rock-n-roll with any kind of Ada development (e.g., CLI, GUI/GTK+, Spark, and cross-compile for ARM). Code safe my friend :-)
 

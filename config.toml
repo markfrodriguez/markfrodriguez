@@ -1,28 +1,35 @@
 baseurl = "http://www.markfrodriguez.com/"
 languageCode = "en-us"
-title = "Mark F Rodriguez"
-theme = "blackburn"
-author = "Mark F Rodriguez"
-copyright = "&copy; 2018. All rights reserved."
-canonifyurls = false
+title = "a more formal napkin"
+theme = "internet-weblog"
+pygmentsstyle = "emacs"
 paginate = 10
+SectionPagesMenu = "main"
+canonifyurls = false
+# copyright = "&copy; 2018. All rights reserved."
 
-[indexes]
-  tag = "tags"
-  topic = "topics"
+[author]
+  Handle = "macrod"
+  FirstName = "Mark"
+  LastName = "Rodriguez"
+  AboutPage = "/about"
+  Location = "Fort Lauderdale, FL"
+  # FlickrID = ""
 
 [params]
-  # Shown in the home page
-  subtitle = "a more formal napkin"
-  brand = "Macrod"
-  googleAnalytics = "UA-54657218-1"
-  disqus = ""
+  Description = "Internet weblog of Mark F Rodriguez."
+  ShowCopyright = true
+  RSSEnabled = true
+  RSSSections = [ "Posts", "Microposts" ]
+  RSSMicropostTitles = false
+
+  # googleAnalytics = "UA-54657218-1"
   # CSS name for highlight.js
-  highlightjs = "androidstudio"
+  # highlightjs = "androidstudio"
   dateFormat = "Jan 02, 2006, 15:04"
-  
+
 [permalinks]
-  post = "/:slug/"
+  posts = "/:slug/"
 
 [menu]
   # Shown in the side menu.
@@ -35,27 +42,21 @@ paginate = 10
   [[menu.main]]
     name = "Posts"
     pre = "<i class='fa fa-database fa-fw'></i>"
-    weight = 1
-    identifier = "post"
-    url = "/post/"
+    weight = 2
+    identifier = "posts"
+    url = "/posts/"
   [[menu.main]]
-    name = "Links"
+    name = "Microposts"
     pre = "<i class='fa fa-link fa-fw'></i>"
-    weight = 1
-    identifier = "links"
-    url = "/links/"
+    weight = 3
+    identifier = "microposts"
+    url = "/microposts/"
   [[menu.main]]
     name = "Search"
     pre = "<i class='fa fa-search fa-fw'></i>"
-    weight = 1
+    weight = 4
     identifier = "search"
     url = "/search/"
-  [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 2
-    identifier = "about"
-    url = "/about/"
 
 [social]
   # Link your social networking accouns to the side menu
@@ -66,8 +67,3 @@ paginate = 10
   github = "markfrodriguez"
   # stackoverflow = "*"
   # linkedin = "*"
-
-# https://gohugo.io/getting-started/configuration/#configure-blackfriday
-[blackfriday]
-  plainIDAnchors = true
-  hrefTargetBlank = true

@@ -100,4 +100,4 @@ Note, a set of {} missing from the above syntax. So internal link really has the
 
 ## Image
 
-![Image](/post/2017/0413-post-formatting/post-formatting.png)
+![Image](/posts/2017/0413-post-formatting/post-formatting.png)

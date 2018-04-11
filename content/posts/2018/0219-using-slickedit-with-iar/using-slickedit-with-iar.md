@@ -26,13 +26,13 @@ In the event that I’m in IAR and need to quickly jump over to Slickedit for co
 
 This looks like the below screen shot in the IDE options dialog.
 
-![IDE Options](/post/2018/0219-using-slickedit-with-iar/iar_use_external_editor.png)
+![IDE Options](/posts/2018/0219-using-slickedit-with-iar/iar_use_external_editor.png)
 
 # Slickedit Project Properties
 
 Slickedit is pretty flexible in allowing you go add new comiplers with included header directories for indexing. The real setup though happens in the tools tab of the Project Properties.
 
-![Project Properties](/post/2018/0219-using-slickedit-with-iar/slickedit_project_properties.png)
+![Project Properties](/posts/2018/0219-using-slickedit-with-iar/slickedit_project_properties.png)
 
 The tools of importance are “Compile”, “Link”, and “Clean”, whihch I had to add since it’s not standard.
 

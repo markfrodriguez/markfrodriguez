@@ -29,11 +29,11 @@ sudo apt-get install git
 
 I'm not a big fan of the default color scheme in Ubuntu's Terminal app, so the colors were changed so the terminal window has a white background. This is done with the menu option Edit --> Profile Preferences. Select the "Colors" tab and change the "Text and Background Color".
 
-![Terminal Color Scheme](/post/2018/0301-ubuntu-setup-for-gtk-dev/terminal_colors.png)
+![Terminal Color Scheme](/posts/2018/0301-ubuntu-setup-for-gtk-dev/terminal_colors.png)
 
 Now that the terminal window's background is white, the green prompt color needs to change as it's unreadable (at least for me).
 
-![Green Prompt](/post/2018/0301-ubuntu-setup-for-gtk-dev/green_prompt.png)
+![Green Prompt](/posts/2018/0301-ubuntu-setup-for-gtk-dev/green_prompt.png)
 
 To change the terminal prompt color, edit the `~/.bashrc` file as shown below.
 
@@ -144,5 +144,5 @@ clean:
 
 Both both the helloworld.c and Makefile into a directory called helloworld. To build, change directory (cd) into the helloworld folder and run make. If all goes well, the helloworld executable will be generated and ready to run.
 
-![Hello World](/post/2018/0301-ubuntu-setup-for-gtk-dev/helloworld.png)
+![Hello World](/posts/2018/0301-ubuntu-setup-for-gtk-dev/helloworld.png)
 

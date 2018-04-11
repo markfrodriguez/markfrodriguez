@@ -35,7 +35,7 @@ To see which components are available and which are currently installed, run
 gcloud components list
 ```
 
-![Google Cloud SDK](/post/2017/0418-google-cloud-setup-golang/google-cloud-sdk.png)
+![Google Cloud SDK](/posts/2017/0418-google-cloud-setup-golang/google-cloud-sdk.png)
 
 Note the general usage notes:
 
