@@ -11,9 +11,9 @@ topics = []
 
 ## Getting GNAT Tools
 
-Now that Ubuntu is [setup for development]({{< relref "post/2018/0301-ubuntu-setup-for-gtk-dev/ubuntu-setup-for-gtk-dev.md" >}}), we’re going to install all the necessary tools to have a full GNAT Ada development environment. By “full”, I mean having a playground to work with Ada 2012, Spark, GUI apps with GTK+, and cross compiling for ARM MCUs.
+Now that Ubuntu is [setup for development]({{< relref "posts/2018/0301-ubuntu-setup-for-gtk-dev/ubuntu-setup-for-gtk-dev.md" >}}), we’re going to install all the necessary tools to have a full GNAT Ada development environment. By “full”, I mean having a playground to work with Ada 2012, Spark, GUI apps with GTK+, and cross compiling for ARM MCUs.
 
-> **Note, the instructions that follow assume you already have a setup capable of GTK+ development. If you don't, please reference [this previous post]({{< relref "post/2018/0301-ubuntu-setup-for-gtk-dev/ubuntu-setup-for-gtk-dev.md" >}}).**
+> **Note, the instructions that follow assume you already have a setup capable of GTK+ development. If you don't, please reference [this previous post]({{< relref "posts/2018/0301-ubuntu-setup-for-gtk-dev/ubuntu-setup-for-gtk-dev.md" >}}).**
 
 First, let’s grab all the necessary packages from AdaCore’s web site. Download the files below:
 

@@ -21,7 +21,7 @@ Create a new workspace directory under home.
 mkdir ~/workspace/goapps
 ```
 
-[Update shell environment variables]({{< relref "post/2017/0418-mac-shell-env-vars/mac-shell-env-vars.md" >}}) so `GOPATH` points to the newly created `goapps` workspace.
+[Update shell environment variables]({{< relref "posts/2017/0418-mac-shell-env-vars/mac-shell-env-vars.md" >}}) so `GOPATH` points to the newly created `goapps` workspace.
 
 In `GOPATH`, create the three folders as follows:
 

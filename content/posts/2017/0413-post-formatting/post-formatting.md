@@ -90,7 +90,7 @@ Much better now with CSS for formatting.
 
 External link to [Google](http://www.google.com/).
 
-Internal link to [another post]({{< relref "post/2017/0413-hugo-setup/hugo-setup.md" >}}) on [WillowBot](http://www.willowbot.com/) is handled via special `relref` tag.
+Internal link to [another post]({{< relref "posts/2017/0413-hugo-setup/hugo-setup.md" >}}) on [WillowBot](http://www.willowbot.com/) is handled via special `relref` tag.
 
 ```
 to [another post]({< relref "post/2017/0413-hugo-setup/hugo-setup.md" >})
