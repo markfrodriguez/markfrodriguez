@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>@{{ .Site.Author.handle }}’s {{ .Site.Title }}{{ with .Title }} - {{ . }}{{ end }}</title>
+    <title>{{ .Site.Author.handle }}: {{ .Site.Title }}{{ with .Title }} - {{ . }}{{ end }}</title>
     <link>{{ .Site.BaseURL }}{{ .Permalink }}</link>
     <description>All entries {{ with .Title }}in {{.}} {{ end }}on {{ .Site.Title }}</description>
     <generator>Hugo -- gohugo.io</generator>
