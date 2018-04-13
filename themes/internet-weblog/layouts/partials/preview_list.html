@@ -14,6 +14,10 @@
     {{ partial "preview_post.html" . }}
   {{ end }}
 
+  {{ if or (eq .Type "links") (eq .Type "link") }}
+    {{ partial "preview_link.html" . }}
+  {{ end }}
+
 {{ end }}
 
 {{ partial "pagination.html" . }}

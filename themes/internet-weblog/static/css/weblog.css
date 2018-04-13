@@ -124,12 +124,12 @@ nav ul > li {
   max-width: 780px;
 }
 
-.post, .page, .post-groups {
+.post, .page, .post-groups, .link {
   margin: 40px auto;
   max-width: 780px;
 }
 
-.micropost > p, .post > p, .page > p {
+.micropost > p, .post > p, .page > p, .link > p {
   color: #666666;
   font-size: 18px;
   line-height: 28px;
@@ -137,7 +137,7 @@ nav ul > li {
   text-align: justify;
 }
 
-.post > p {
+.post > p, .link > p {
   margin: 20px auto;
 }
 
@@ -147,11 +147,11 @@ nav ul > li {
   margin: 0;
 }
 
-.micropost p > a, .post p > a {
+.micropost p > a, .post p > a, .link p > a {
   text-decoration: underline; 
 }
 
-.post h2 {
+.post h2, .link h2 {
   margin: 0;
   line-height: 32px;
 }

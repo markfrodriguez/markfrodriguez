@@ -51,9 +51,15 @@ canonifyurls = false
     identifier = "microposts"
     url = "/microposts/"
   [[menu.main]]
+    name = "Links"
+    pre = "<i class='fa fa-link fa-fw'></i>"
+    weight = 4
+    identifier = "links"
+    url = "/links/"
+  [[menu.main]]
     name = "Search"
     pre = "<i class='fa fa-search fa-fw'></i>"
-    weight = 4
+    weight = 5
     identifier = "search"
     url = "/search/"
 
