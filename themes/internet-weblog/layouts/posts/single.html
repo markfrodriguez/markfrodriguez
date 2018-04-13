@@ -20,8 +20,8 @@
       <p>
         {{ .Content }}
       </p>
+      {{ partial "disqus.html" . }}
     </article>
-    {{ partial "disqus.html" . }}
   </main>
 
 {{ partial "page_footer.html" . }}
